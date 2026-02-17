@@ -1,0 +1,22 @@
+pkgbase = omarchy-seq-paste
+	pkgdesc = Sequential copy/paste (FIFO clipboard) for Hyprland, inspired by macOS Pastebot
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://aur.archlinux.org/packages/omarchy-seq-paste
+	arch = any
+	license = MIT
+	depends = wl-clipboard
+	depends = inotify-tools
+	depends = ghostty
+	depends = libnotify
+	depends = hyprland
+	source = omarchy-seq-paste
+	source = hyprland-bindings.conf
+	source = hyprland-rules.conf
+	source = LICENSE
+	sha256sums = 3a681374032904154dbcc2b72d04586874d654d4cc75d200ce2ba2a52495a578
+	sha256sums = b13f5dc79123566c9496c8fe70495235f6e1854d71642e5e7c54972fc837c260
+	sha256sums = 6962999cc4e6bef579fd927539d4f83d673a05a69ff58d05bafcbd056ce3506a
+	sha256sums = 3c13098a9c569d1e158a80125981f3023092f6e69755743d90aa19b22e506a28
+
+pkgname = omarchy-seq-paste
